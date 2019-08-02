@@ -16,7 +16,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 
 def get_db():
-    """."""
+    """Get a handle to the mysql database."""
     dialect = "mysql"
     driver = "mysqlconnector"
     username = "root"
