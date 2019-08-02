@@ -1,6 +1,4 @@
-# Quick test of reading and writing Pandas dataframes to MySQL.
-
-## Quick-start
+# Quick test: Read/write Pandas dataframe to MySQL
 
 Deploy mysql in a container using the official mysql Docker image
 <https://hub.docker.com/_/mysql> 
