@@ -1,4 +1,4 @@
-# Quick test of Pandas reading and writing to Mysql
+# Quick test of reading and writing Pandas dataframes to MySQL.
 
 ## Quick-start
 
@@ -24,7 +24,7 @@ docker run -t --rm --network=container:mysql bmort/pandas-mysql-test
 
 If sucessful the output of running the test should look something like:
 
-![Examlple output](https://raw.githubusercontent.com/bmort/pandas_sql_test/master/Screenshot%202019-08-02%20at%2002.16.15.png "")
+<img src="https://raw.githubusercontent.com/bmort/pandas_sql_test/master/Screenshot%202019-08-02%20at%2002.16.15.png" width="609" height="334">
 
 Once finished, clean up the mysql container with:
 
