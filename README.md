@@ -22,6 +22,10 @@ This test script can also be from inside a container, which avoids the need to i
 docker run -t --rm --network=container:mysql bmort/pandas-mysql-test
 ```
 
+If sucessful the output of running the test should look something like:
+
+![Examlple output](https://raw.githubusercontent.com/bmort/pandas_sql_test/master/Screenshot%202019-08-02%20at%2002.16.15.png "")
+
 Once finished, clean up the mysql container with:
 
 ```bash
